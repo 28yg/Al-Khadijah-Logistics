@@ -1,0 +1,380 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+
+#logo-text1 {
+    font-family: 'Audiowide', cursive;
+    margin-LEFT: 300PX;
+    color: rgb(207, 216, 216);   
+} 
+
+
+
+header {
+    background-color: transparent;    
+    z-index: 5;
+    width: 100%;
+}
+
+header h1{       border-bottom: 1px solid rgb(54, 15, 211);  
+    font-size: 4rem;
+    font-family: 'Cinzel Decorative', cursive;
+    color:aqua;
+    word-spacing: 1.5rem;
+    margin: 0 1rem;
+}
+
+
+@media only screen and (max-width:1350px) {
+ 
+    header h1{
+        font-size: 2.5rem;
+    }                  
+}
+
+
+@media only screen and (max-width:978px) { 
+    #logo-text1{
+        font-family: 'Audiowide', cursive;
+        margin-LEFT: 100PX;
+    }
+}
+
+@media only screen and (max-width:780px) {
+    #logo-text1{
+        font-family: 'Audiowide', cursive;
+        margin-LEFT: 10PX;
+    }
+}
+
+
+nav.sticky {  
+    font-size: 1rem;
+    z-index: 5 ;
+}
+
+nav.sticky ul {
+    display: flex;
+    justify-content:right;
+    margin-right: 1rem;                
+}
+
+
+nav.sticky ul li{
+    display: inline;
+    padding-right: 0.5rem;   
+    background-color:  rgb(207, 216, 216);
+    margin: 5px;
+    border-radius: 20px;
+    letter-spacing: 2.5px;
+    word-spacing: 3.5px;
+    margin-top: 1rem;
+}
+
+
+nav.sticky ul li:hover {
+    background-color:aquamarine;
+}
+
+
+#banner{                                          
+    position:-webkit-sticky;            
+    position:sticky;
+    top: -100px; 
+}
+
+#ieffel-tower {
+    margin-top: -15rem;
+    top:0px;
+    width: 100%;
+    height: 100%;
+}
+
+
+#mission-statement {
+    margin-top: 0px;
+    width: 40%;
+    height: 20%;
+    position:static;
+   margin-top: -35rem; 
+    margin-left: 15%;
+   border: 2px dotted red; 
+   border-radius: 20px;
+   color: navy;
+   flex-shrink: 1;
+}
+
+#mission-statement h2 {
+    font-size: 3rem;
+    text-align: center;
+    margin: 1rem 0; 
+}
+
+#mission-statement h5 {
+    margin: 0 1rem 1rem;
+    line-height: 1.5;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    word-spacing: 0.5rem;
+}
+
+
+@media only screen and (max-width: 1150px) {
+    #mission-statement {
+         margin-top: -25rem;                        
+      }
+
+      #mission-statement h2 {
+        font-size: 2.5rem;
+        text-align: center;
+        margin: 1rem 0; 
+    } 
+}
+
+
+
+@media only screen and (max-width:900px) {
+    header h1{
+        font-size: 2.5rem;
+    }
+
+    div.container {
+        display:flex;
+    }
+
+    #mission-statement {   
+        margin-top: 0px; 
+        margin-left: 0;
+        width: 100%;
+        color: black;
+        flex-shrink: 1;
+        line-height: 1.5;  
+        background-color:  rgb(246, 252, 252);
+      }
+
+    #mission-statement h2 {
+        font-size: 2rem;
+        text-align: center;
+        margin: 1rem 0; 
+    }   
+    
+#mission-statement h5 {
+    margin: 0 1rem 1rem;
+    line-height: 1.5;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    word-spacing: 0.5rem;
+}
+}
+
+
+ @media only screen and (max-width: 690px) {
+    header h1{
+        font-size: 1.5rem;
+    }
+ #mission-statement {  
+    max-width: 100%;
+   border: 2px dotted red; 
+   border-radius: 20px;
+   color: navy;
+   flex-shrink: 1;
+   line-height: 1.5;
+}
+    #mission-statement h2 {
+        font-size: 1.5rem;
+        text-align: center;
+        margin: 1rem 0; 
+    }   
+#mission-statement h5 {
+    font-size: 0.75rem;
+    margin: 0 1rem 1rem;
+    line-height: 1;
+    word-spacing: 0.5rem;
+}
+}
+
+
+
+@media only screen and (max-width:460px) {
+    header h1{
+        font-size: 1rem; 
+        margin-left: 0px;     
+    }    
+
+    #mission-statement {  
+        max-width: 100%;
+        border: 2px dotted brown; 
+        border-radius: 20px;
+        color: navy;
+        flex-shrink: 1;
+        line-height: 1.5;
+}
+
+nav.sticky ul a {
+    font-size: 0.75rem;
+    }
+
+    #logo-text1 {
+        font-family: 'Audiowide', cursive;
+        margin-LEFT: 0PX;
+    } 
+}
+
+
+
+
+    /*   BODY -  Modes of Transportation Section    */
+
+.sticky {
+    text-align: left;
+}
+
+ul li {
+    padding: 10px 20px;
+}
+
+
+body {
+    margin: 0;
+    border: 0;
+  } 
+
+#mode-of-transport-header{
+    margin-top: 5.5rem; 
+    margin-left: 1rem;
+}
+
+#mode-of-transport-description{
+    margin-left: 1rem;
+    font-size: 1.15rem;   
+}
+
+#place-holder-platform {
+    background-color: pink;
+}
+
+.place-holder-container{
+    display: flex;
+    background-color: white;
+}
+
+.place-holder-item {     
+    max-width: 22%;
+    margin: 15px;
+    box-shadow: 10px 10px 25px 5px rgba(18, 15, 15, 0.4);
+}
+
+
+.item-image {
+    height: 200px;
+    border: 1px solid grey;  
+}
+
+.item-description {
+    width: 100%;
+    padding: 20px;
+}
+
+.item-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 1000px) {
+    .place-holder-container {
+        display: inline-flex;
+        background-color: darkkhaki;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .place-holder-item {
+        border: 2px dotted white;      
+        max-width: 100%;
+    }
+
+    .item-image {
+      height: 350px;
+    }
+}
+
+
+
+
+/* Company Employee Section     */
+
+#company-staff{
+    margin-top: 5.5rem;
+    margin-left: 1rem;
+}
+
+.staff-container {
+    display: flex;
+    justify-content: center;
+}
+
+.staff-image-platform {
+ border: 1px dotted red;
+}
+
+
+.staff-image-holder {
+    margin: 25px;
+    box-shadow: 10px 10px 20px 10px rgba(170, 170, 170, 0.4);
+}
+
+.staff-image-holder img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;    
+}
+
+.staff-description {
+    margin: 15px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .staff-container {
+       display: flex;
+       flex-wrap: wrap;
+    }
+
+    .staff-image-holder {
+         display: inline-flex;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .staff-image-holder {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+   }
+}
+
+
+footer {
+    width: 100%;
+    background-color: rgb(207, 216, 216);
+    margin-top: 3rem;
+}
+
+#footer-header {
+    text-align: center;
+    padding: 1.25rem;
+}
+
+
+div.container {
+    display: flex; 
+}
+
+
+
+
+
+
